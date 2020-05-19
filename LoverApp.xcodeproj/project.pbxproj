@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762AFB962473835400B1FEB3 /* chartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AFB952473835400B1FEB3 /* chartView.swift */; };
+		762AFB982473892800B1FEB3 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AFB972473892800B1FEB3 /* PieChartView.swift */; };
+		762AFB9A2473B2D300B1FEB3 /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AFB992473B2D200B1FEB3 /* tab.swift */; };
 		9B88CA002459243B00EF93E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88C9FF2459243B00EF93E5 /* AppDelegate.swift */; };
 		9B88CA022459243B00EF93E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA012459243B00EF93E5 /* SceneDelegate.swift */; };
 		9B88CA042459243B00EF93E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA032459243B00EF93E5 /* ContentView.swift */; };
 		9B88CA062459243D00EF93E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B88CA052459243D00EF93E5 /* Assets.xcassets */; };
 		9B88CA092459243D00EF93E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B88CA082459243D00EF93E5 /* Preview Assets.xcassets */; };
 		9B88CA0C2459243D00EF93E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B88CA0A2459243D00EF93E5 /* LaunchScreen.storyboard */; };
+		9B88CA142459244700EF93E5 /* Lover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA132459244700EF93E5 /* Lover.swift */; };
+		9B88CA162459258C00EF93E5 /* LoversData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA152459258C00EF93E5 /* LoversData.swift */; };
+		9B88CA182459260D00EF93E5 /* LoverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA172459260D00EF93E5 /* LoverRow.swift */; };
+		9B88CA1A2459269800EF93E5 /* LoverList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA192459269800EF93E5 /* LoverList.swift */; };
+		9B88CA1C24592ABA00EF93E5 /* LoverEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CA1B24592ABA00EF93E5 /* LoverEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		762AFB952473835400B1FEB3 /* chartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartView.swift; sourceTree = "<group>"; };
+		762AFB972473892800B1FEB3 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		762AFB992473B2D200B1FEB3 /* tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab.swift; sourceTree = "<group>"; };
 		9B88C9FC2459243B00EF93E5 /* LoverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88C9FF2459243B00EF93E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B88CA012459243B00EF93E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		9B88CA082459243D00EF93E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B88CA0B2459243D00EF93E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B88CA0D2459243D00EF93E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B88CA132459244700EF93E5 /* Lover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lover.swift; sourceTree = "<group>"; };
+		9B88CA152459258C00EF93E5 /* LoversData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoversData.swift; sourceTree = "<group>"; };
+		9B88CA172459260D00EF93E5 /* LoverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverRow.swift; sourceTree = "<group>"; };
+		9B88CA192459269800EF93E5 /* LoverList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverList.swift; sourceTree = "<group>"; };
+		9B88CA1B24592ABA00EF93E5 /* LoverEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				9B88C9FF2459243B00EF93E5 /* AppDelegate.swift */,
 				9B88CA012459243B00EF93E5 /* SceneDelegate.swift */,
 				9B88CA032459243B00EF93E5 /* ContentView.swift */,
+				9B88CA152459258C00EF93E5 /* LoversData.swift */,
+				9B88CA172459260D00EF93E5 /* LoverRow.swift */,
+				9B88CA192459269800EF93E5 /* LoverList.swift */,
+				762AFB992473B2D200B1FEB3 /* tab.swift */,
+				762AFB952473835400B1FEB3 /* chartView.swift */,
+				762AFB972473892800B1FEB3 /* PieChartView.swift */,
+				9B88CA1B24592ABA00EF93E5 /* LoverEditor.swift */,
+				9B88CA132459244700EF93E5 /* Lover.swift */,
 				9B88CA052459243D00EF93E5 /* Assets.xcassets */,
 				9B88CA0A2459243D00EF93E5 /* LaunchScreen.storyboard */,
 				9B88CA0D2459243D00EF93E5 /* Info.plist */,
@@ -148,7 +172,15 @@
 			files = (
 				9B88CA002459243B00EF93E5 /* AppDelegate.swift in Sources */,
 				9B88CA022459243B00EF93E5 /* SceneDelegate.swift in Sources */,
+				9B88CA1A2459269800EF93E5 /* LoverList.swift in Sources */,
+				762AFB9A2473B2D300B1FEB3 /* tab.swift in Sources */,
+				9B88CA1C24592ABA00EF93E5 /* LoverEditor.swift in Sources */,
+				9B88CA142459244700EF93E5 /* Lover.swift in Sources */,
+				9B88CA182459260D00EF93E5 /* LoverRow.swift in Sources */,
+				762AFB982473892800B1FEB3 /* PieChartView.swift in Sources */,
+				9B88CA162459258C00EF93E5 /* LoversData.swift in Sources */,
 				9B88CA042459243B00EF93E5 /* ContentView.swift in Sources */,
+				762AFB962473835400B1FEB3 /* chartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
